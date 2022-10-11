@@ -1,10 +1,19 @@
 print("-------------------------")
-number = input("Number Range: ")
-#Adding a 1 because if user enters 10 it would only count up to 9
-number = int(number) + 1
+#Checking if input value is an Intiger
+while True:
+    try:
+        number = int(input("Number Range: "))
+        break
+    except ValueError:
+        print("Error can only input numbers")
+
+    
 #You can chose Odd or Even
 user = input("Odd | Even: ")
 print("-------------------------")
+
+#Adding plus one because it allways starts counting at 0
+number = int(number) + 1
 
 #Print the chosen number rang and the Odd or Even Numbers
 for i in range(number):
