@@ -2,10 +2,19 @@ from tokenize import Number
 
 
 print("-------------------------")
-print("What number range do you want?")
-number = input()
+number = input("Number Range: ")
+
 print("Odd | Even\n")
 user = input()
 
-
+#Print the chosen number rang and the Odd or Even Numbers
+for i in range(int(number)):
+    if user == "Even":
+        if i % 2 == 0:
+            print(i)
+    elif user == "Odd":
+        if i % 2 > 0:
+            print(i)
+    else:
+        print("Error")
         
