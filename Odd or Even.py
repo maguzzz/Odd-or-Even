@@ -1,4 +1,4 @@
-#Making a funtion claled space to not repeat code
+#Making a funtion called space to not repeat code
 def space():
     print("-------------------------")
 
@@ -22,10 +22,10 @@ number = int(number) + 1
 
 #Print the chosen number rang and the Odd or Even Numbers
 for i in range(number):
-    if user == "Even":
+    if user.lower() == "even":
         if i % 2 == 0:
             print(i)
-    elif user == "Odd":
+    elif user.lower() == "odd":
         if i % 2 > 0:
             print(i)
     else:
