@@ -1,4 +1,4 @@
-#Making a funtion called space to not repeat code
+#Making a function called space to not repeat code
 def space():
     print("-------------------------")
 
