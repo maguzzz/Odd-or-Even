@@ -1,4 +1,9 @@
-print("-------------------------")
+#Making a funtion claled space to not repeat code
+def space():
+    print("-------------------------")
+
+
+space()
 #Checking if input value is an Intiger
 while True:
     try:
@@ -10,7 +15,7 @@ while True:
     
 #You can chose Odd or Even
 user = input("Odd | Even: ")
-print("-------------------------")
+space()
 
 #Adding plus one because it allways starts counting at 0
 number = int(number) + 1
@@ -25,4 +30,4 @@ for i in range(number):
             print(i)
     else:
         print("Error")
-        
+space()
