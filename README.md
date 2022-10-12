@@ -1,5 +1,5 @@
 # Odd or Even
-<h1>A programm where you can input a number range and chose Odd or Even </h1>
+<h1>A programm where you can input a number range and choose Odd or Even </h1>
 
 Namespace = camelCase
 
