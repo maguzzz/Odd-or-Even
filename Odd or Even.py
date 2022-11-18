@@ -4,7 +4,7 @@ def space():
 
 
 space()
-#Checking if input value is an Intiger
+#Checking if input value is an Integer
 while True:
     try:
         number = int(input("Number Range: "))
@@ -13,14 +13,14 @@ while True:
         print("Error can only input numbers")
 
     
-#You can choose Odd or Even
+#You can chose Odd or Even
 user = input("Odd | Even: ")
 space()
 
-#Adding plus one because it allways starts counting at 0
+#Adding plus one because it always starts counting at 0
 number = int(number) + 1
 
-#Print the chosen number range and the Odd or Even Numbers
+#Print the chosen number rang and the Odd or Even Numbers
 for i in range(number):
     if user.lower() == "even":
         if i % 2 == 0:
